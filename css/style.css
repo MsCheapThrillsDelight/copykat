@@ -1,0 +1,95 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Average', serif;
+  margin: 0;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+h1, h2 {
+  margin: 0;
+  letter-spacing: .5px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.picture {
+  width: 50%;
+  float: left;
+}
+
+.picture img {
+  max-width: 100%;
+}
+
+.description {
+  width: 50%;
+  float: right;
+  padding: 0 10px;
+}
+
+h2, li {
+  font-family: 'Montserrat', times;
+  color: #a3865b;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  font-size: 12px;
+  display: inline;
+}
+
+li span {
+  color: black;
+  margin-right: 10px;
+}
+
+.writeup, footer {
+  border-top: 1px solid #a3865b;
+  border-bottom: 1px solid #a3865b;
+}
+
+.writeup {
+  padding: 20px 0;
+}
+
+footer {
+  padding: 15px 0;
+}
+
+footer img, footer p {
+  display: inline;
+  vertical-align: middle;
+}
+
+footer img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: teal;
+  font-size: 16px;
+}
+
+footer a:hover {
+  color: black;
+}
